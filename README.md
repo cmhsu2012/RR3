@@ -1,4 +1,4 @@
-#This is a Sage program for the Small Eisenstein congruences and explicit non-Gorenstein R=T project. Please find below a list of descriptions for the files in this program. 
+#This is the Sage program for the Small Eisenstein congruences and explicit non-Gorenstein R=T project. Please find below a list of descriptions for the files in this program. 
 
 1. RR3_main_program: This is the main program file that should be executed in Sage. You choose your ell_1 value in this file.
 
