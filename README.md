@@ -23,9 +23,9 @@ This code is written for Sage, Version 9.2.
 
 To use this program, load RR3_main.sage. The main program function RR3_main takes the following inputs:
 
-- values for $$p$$, $\ell_0$, and $\ell_1$ satisfying Assumption 2.1.1
+- values for p, ell0, and ell1 satisfying Assumption 2.1.1
 - do_a1_p_check = True or False, True if you want the program to check if a1 is split at p, False otherwise
-- 
+- mode = "Full" or "Ell1"
 
 Full mode --
 
