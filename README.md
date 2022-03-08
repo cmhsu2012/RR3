@@ -23,14 +23,23 @@ This program
 
 To use load RR3_main.sage. The function has five inputs...
 
-1. RR3_main_program: This is the main program file that should be executed in Sage. You choose your ell_1 value in this file.
+The full mode --
 
-2. RR3_initial_setup: This implements the algorithms in Section 3.1.
+1. initial_setup.sage: This implements the algorithms in Section 3.1.
 
-3. RR3_functions: This implements the functions used throughout Sections 3.2 to 3.5.
+2. functions.sage: This implements the functions used throughout Sections 3.2 to 3.5.
 
-4. RR3_Kolyvagin_setup: This implements the algorithms in Section 3.2.
+3. Qz_extensions.sage:
 
-5. RR3_a1_side: This implements the algorithms in Section 3.3.
+4. Kolyvagin_setup.sage: This implements the algorithms in Section 3.2.
 
-6. RR3_b2_side: This implements the algorithms in Section 3.4 and 3.5.
+5. a1_side.sage: This implements the algorithms in Section 3.3.
+
+6. a1_p_splitting.sage
+
+7. b2_prelim.sage: This implements the algorithms in Section 3.4 and 3.5.
+
+8. b2_side.sage
+
+The Ell1 mode initial_setup_ell1.sage
+
