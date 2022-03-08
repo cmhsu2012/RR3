@@ -1,23 +1,23 @@
-# Version 1.0
-# 2022-03-08
-# Authors: Catherine Hsu, Preston Wake, Carl Wang-Erickson
-#
-# This code is written for Sage, Version 9.2.
+Version 1.0
+2022-03-08
+Authors: Catherine Hsu, Preston Wake, Carl Wang-Erickson
 
-#*****************************************************************************
-#       Copyright (C) 2022 Hsu--Wake--Wang-Erickson 
-#
-#  Distributed under the terms of the GNU General Public License (GPL)
-#
-#    This code is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-#    General Public License for more details.
-#
-#  The full text of the GPL is available at:
-#
-#                  http://www.gnu.org/licenses/
-#*****************************************************************************
+This code is written for Sage, Version 9.2.
+
+*****************************************************************************
+       Copyright (C) 2022 Hsu--Wake--Wang-Erickson 
+
+  Distributed under the terms of the GNU General Public License (GPL)
+
+    This code is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    General Public License for more details.
+
+  The full text of the GPL is available at:
+
+                  http://www.gnu.org/licenses/
+*****************************************************************************
 
 This program 
 
