@@ -1,5 +1,7 @@
 Version 1.0
+
 2022-03-08
+
 Authors: Catherine Hsu, Preston Wake, Carl Wang-Erickson
 
 This code is written for Sage, Version 9.2.
