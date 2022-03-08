@@ -21,12 +21,11 @@ This code is written for Sage, Version 9.2.
                   http://www.gnu.org/licenses/
 *****************************************************************************
 
-This program 
-
-To use load RR3_main.sage. The function has five inputs...
+To use this program, load RR3_main.sage. The main program function RR3_main takes the following inputs:
 
 - values for p, ell0, and ell1 satisfying Assumption 2.1.1
--
+- do_a1_p_check = True or False, True if you want the program to check if a1 is split at p, False otherwise
+- 
 
 Full mode --
 
