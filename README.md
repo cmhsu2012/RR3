@@ -39,5 +39,5 @@ When run in Full mode, RR3_computations() does not assume any previously compute
 7. b2_prelim.sage: This implements the preliminary adjustment for b2_cand following Lemma 4.3.1.
 8. b2_side.sage: This computes the local adjustments for b2 (Algorithms 3 and 4) and then checks if Condition (ii) in Theorem 4.5.1 holds (Algorithm 6).
 
-When run in Ell1 mode, RR3_computations() assumes that S-units in Qz have already been computed for a0 and c1. As such, the program calls initial_setup_ell1.sage, which is a slightly modified version of initial_setup.sage, and omits the file Qz_extensions.sage. Other than these modifications, Ell1 mode is identical to Full mode.
+When run in Ell1 mode, RR3_computations() assumes that S-units in Qz have already been computed for a0 and c1. As such, the program calls initial_setup_ell1.sage, a slightly modified version of initial_setup.sage, and omits the file Qz_extensions.sage. Other than these modifications, Ell1 mode is identical to Full mode.
 
