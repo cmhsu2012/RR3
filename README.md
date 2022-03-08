@@ -21,23 +21,23 @@ This code is written for Sage, Version 9.2.
                   http://www.gnu.org/licenses/
 *****************************************************************************
 
-This program implements the algorithms described in _Explicit Non-Gorenstein R=T via Rank Bounds II: Computation_. To use this program, load RR3_main.sage and then call the function RR3_computations() for each example for which you want to check the conditions of Theorem ---.
+This program implements the algorithms described in _Explicit Non-Gorenstein R=T via Rank Bounds II: Computation_. To use this program, load RR3_main.sage and then call the function RR3_computations() for each example in which you want to check the conditions of Theorem 4.5.1.
 
 RR3_computations() requires the following inputs:
 - values for p, ell0, and ell1 satisfying Assumption 2.1.1
 - do_a1_p_check = True or False, True if you want the program to check if a1 is split at p, False otherwise
 - mode = "Full" or "Ell1", both modes produce the same output, but Ell1 mode assumes that certain S-units in Qz have already been computed in Sage
 
-When run in Full mode, RR3_computations() does not assume any information ... calls the following files:
+When run in Full mode, RR3_computations() does not assume any previously computed data and calls the following files:
 
-1. initial_setup.sage: This implements the algorithms in Section 3.1.
-2. functions.sage: This implements the functions used throughout Sections 3.2 to 3.5.
-3. Qz_extensions.sage:
+1. initial_setup.sage: Framework necessary to compute...
+2. functions.sage: This implements the functions used throughout the rest of the program.
+3. Qz_extensions.sage: This implements a computation of S-units in Qz for a0 and c1.
 4. Kolyvagin_setup.sage: This computes the data in Theorem 3.5.1.
-5. a1_side.sage: This computes the local adjustments and then checks if Condition (i) holds
+5. a1_side.sage: This computes the local adjustments and then checks if Condition (i) in Theorem 4.5.1 holds (Algorithms 1, 2, and 5). 
 6. a1_p_splitting.sage: This optional computation checks, which difficulty
-7. b2_prelim.sage: Preliminary adjustment 
-8. b2_side.sage: This computes the local adjustments and then checks if Condition (i) holds
+7. b2_prelim.sage: Preliminary adjustment in Section 4.3
+8. b2_side.sage: This computes the local adjustments and then checks if Condition (ii) in Theorem 4.5.1 holds (Algorithms 3, 4, and 6).
 
 When run in Ell1 mode, RR3_computations() assumes that S-units in Qz have already been computed for a0 and c1. As such, the program calls initial_setup_ell1.sage, which is a slightly modified version, and omits Qz_extensions.sage. Other than these modifications, Ell1 mode is identical to Full mode.
 
