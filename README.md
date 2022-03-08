@@ -39,5 +39,10 @@ When run in Full mode, RR3_computations() does not assume any information ... ca
 7. b2_prelim.sage: Preliminary adjustment 
 8. b2_side.sage: This computes the local adjustments and then checks if Condition (i) holds
 
-When run in Ell1 mode, RR3_computations() assumes that S-units for a0 and c1 in Qz have already been computed. As such, the program calls initial_setup_ell1.sage, which is a slightly modified version, and does not call Qz_extensions.sage. Starting from the Kolyvagin_setup.sage file, Ell1 mode is identical to Full mode.
+When run in Ell1 mode, RR3_computations() assumes that S-units in Qz have already been computed for a0 and c1. As such, the program calls 
+
+1. initial_setup_ell1.sage: which is a slightly modified version
+2. functions.sage
+
+Starting from the Kolyvagin_setup.sage file, Ell1 mode is identical to Full mode.
 
