@@ -28,7 +28,7 @@ To use load RR3_main.sage. The function has five inputs...
 - values for p, ell0, and ell1 satisfying Assumption 2.1.1
 -
 
-The full mode --
+Full mode --
 
 1. initial_setup.sage: This implements the algorithms in Section 3.1.
 2. functions.sage: This implements the functions used throughout Sections 3.2 to 3.5.
@@ -39,7 +39,7 @@ The full mode --
 7. b2_prelim.sage: This implements the algorithms in Section 3.4 and 3.5.
 8. b2_side.sage
 
-The Ell1 mode 
+Ell1 mode 
 - initial_setup_ell1.sage:
 - Qz_extensions.sage
 
