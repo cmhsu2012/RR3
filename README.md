@@ -39,5 +39,7 @@ The full mode --
 7. b2_prelim.sage: This implements the algorithms in Section 3.4 and 3.5.
 8. b2_side.sage
 
-The Ell1 mode initial_setup_ell1.sage
+The Ell1 mode 
+- initial_setup_ell1.sage:
+- Qz_extensions.sage
 
