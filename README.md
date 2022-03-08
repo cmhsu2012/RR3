@@ -25,6 +25,9 @@ This program
 
 To use load RR3_main.sage. The function has five inputs...
 
+- values for p, ell0, and ell1 satisfying Assumption 2.1.1
+-
+
 The full mode --
 
 1. initial_setup.sage: This implements the algorithms in Section 3.1.
