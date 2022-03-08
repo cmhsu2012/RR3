@@ -30,14 +30,14 @@ To use load RR3_main.sage. The function has five inputs...
 
 The full mode --
 
-- initial_setup.sage: This implements the algorithms in Section 3.1.
-- functions.sage: This implements the functions used throughout Sections 3.2 to 3.5.
-- Qz_extensions.sage:
-- Kolyvagin_setup.sage: This implements the algorithms in Section 3.2.
-- a1_side.sage: This implements the algorithms in Section 3.3.
-- a1_p_splitting.sage
-- b2_prelim.sage: This implements the algorithms in Section 3.4 and 3.5.
-- b2_side.sage
+1. initial_setup.sage: This implements the algorithms in Section 3.1.
+2. functions.sage: This implements the functions used throughout Sections 3.2 to 3.5.
+3. Qz_extensions.sage:
+4. Kolyvagin_setup.sage: This implements the algorithms in Section 3.2.
+5. a1_side.sage: This implements the algorithms in Section 3.3.
+6. a1_p_splitting.sage
+7. b2_prelim.sage: This implements the algorithms in Section 3.4 and 3.5.
+8. b2_side.sage
 
 The Ell1 mode initial_setup_ell1.sage
 
