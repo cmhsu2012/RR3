@@ -1,4 +1,27 @@
-#This is the Sage program for the Small Eisenstein congruences and explicit non-Gorenstein R=T project. Please find below a list of descriptions for the files in this program. 
+# Version 1.0
+# 2022-03-08
+# Authors: Catherine Hsu, Preston Wake, Carl Wang-Erickson
+#
+# This code is written for Sage, Version 9.2.
+
+#*****************************************************************************
+#       Copyright (C) 2022 Hsu--Wake--Wang-Erickson 
+#
+#  Distributed under the terms of the GNU General Public License (GPL)
+#
+#    This code is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#    General Public License for more details.
+#
+#  The full text of the GPL is available at:
+#
+#                  http://www.gnu.org/licenses/
+#*****************************************************************************
+
+This program 
+
+To use load RR3_main.sage. The function has five inputs...
 
 1. RR3_main_program: This is the main program file that should be executed in Sage. You choose your ell_1 value in this file.
 
