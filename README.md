@@ -21,10 +21,12 @@ This code is written for Sage, Version 9.2.
                   http://www.gnu.org/licenses/
 *****************************************************************************
 
-This program  in _Explicit Non-Gorenstein R=T via Rank Bounds II: Computation_. To use this program, load RR3_main.sage and then call the function RR3_computations() to . This function requires the following inputs:
+This program  in _Explicit Non-Gorenstein R=T via Rank Bounds II: Computation_. To use this program, load RR3_main.sage and then call the function RR3_computations() to produce. Note that the program does not return any specific output but rather ..., including the conclusion of Theorem.... 
+
+RR3_computations() requires the following inputs:
 - values for p, ell0, and ell1 satisfying Assumption 2.1.1
 - do_a1_p_check = True or False, True if you want the program to check if a1 is split at p, False otherwise
-- mode = "Full" or "Ell1", see below for details on these two modes
+- mode = "Full" or "Ell1", both modes produce the same output, but Ell1 mode assumes that certain S-units in Qz have already been computed in Sage
 
 Full mode --
 
