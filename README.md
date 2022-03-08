@@ -30,14 +30,14 @@ RR3_computations() requires the following inputs:
 
 When run in Full mode, RR3_computations() does not assume any previously computed data and calls the following files:
 
-1. initial_setup.sage: Framework necessary to compute...
+1. initial_setup.sage: This implements the framework required to execute these computations, including fixing the relevant parts of the pinning data.
 2. functions.sage: This implements the functions used throughout the rest of the program.
 3. Qz_extensions.sage: This implements a computation of S-units in Qz for a0 and c1.
-4. Kolyvagin_setup.sage: This computes the data in Theorem 3.5.1.
-5. a1_side.sage: This computes the local adjustments and then checks if Condition (i) in Theorem 4.5.1 holds (Algorithms 1, 2, and 5). 
-6. a1_p_splitting.sage: This optional computation checks, which difficulty
-7. b2_prelim.sage: Preliminary adjustment in Section 4.3
-8. b2_side.sage: This computes the local adjustments and then checks if Condition (ii) in Theorem 4.5.1 holds (Algorithms 3, 4, and 6).
+4. Kolyvagin_setup.sage: This computes a1_cand and b2_cand following Theorem 3.5.1.
+5. a1_side.sage: This computes the local adjustments for a1 (Algorithms 1 and 2) and then checks if Condition (i) in Theorem 4.5.1 holds (Algorithm 5). 
+6. a1_p_splitting.sage: This optional computation checks if a1 splits at p, which can simplify the local adjustments of b2.
+7. b2_prelim.sage: This implements the preliminary adjustment for b2_cand following Lemma 4.3.1.
+8. b2_side.sage: This computes the local adjustments for b2 (Algorithms 3 and 4) and then checks if Condition (ii) in Theorem 4.5.1 holds (Algorithm 6).
 
-When run in Ell1 mode, RR3_computations() assumes that S-units in Qz have already been computed for a0 and c1. As such, the program calls initial_setup_ell1.sage, which is a slightly modified version, and omits Qz_extensions.sage. Other than these modifications, Ell1 mode is identical to Full mode.
+When run in Ell1 mode, RR3_computations() assumes that S-units in Qz have already been computed for a0 and c1. As such, the program calls initial_setup_ell1.sage, which is a slightly modified version of initial_setup.sage, and omits the file Qz_extensions.sage. Other than these modifications, Ell1 mode is identical to Full mode.
 
