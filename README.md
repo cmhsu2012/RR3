@@ -30,7 +30,7 @@ RR3_computations() requires the following inputs:
 
 When in Full mode, RR3_computations() does not assume any previously computed data and calls the following files:
 
-1. initial_setup.sage: This implements the framework required to execute these computations, including fixing the relevant parts of the pinning data.
+1. initial_setup.sage: This implements the framework required to execute these computations, including fixing the relevant parts of the pinning data in Definition 2.2.1.
 2. functions.sage: This implements the functions used throughout the rest of the program.
 3. Qz_extensions.sage: This implements a computation of S-units in Qz for a0 and c1.
 4. Kolyvagin_setup.sage: This computes a1_cand and b2_cand following Theorem 3.5.1.
