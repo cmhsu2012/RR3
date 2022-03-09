@@ -28,7 +28,7 @@ RR3_computations() requires the following inputs:
 - do_a1_p_check = True or False, True if you want the program to check if a1 is split at p, False otherwise
 - mode = "Full" or "Ell1", both modes produce the same output, but Ell1 mode assumes that certain S-units in Qz have already been computed in Sage
 
-When run in Full mode, RR3_computations() does not assume any previously computed data and calls the following files:
+When in Full mode, RR3_computations() does not assume any previously computed data and calls the following files:
 
 1. initial_setup.sage: This implements the framework required to execute these computations, including fixing the relevant parts of the pinning data.
 2. functions.sage: This implements the functions used throughout the rest of the program.
@@ -39,5 +39,5 @@ When run in Full mode, RR3_computations() does not assume any previously compute
 7. b2_prelim.sage: This implements the preliminary adjustment for b2_cand following Lemma 4.3.1.
 8. b2_side.sage: This computes the local adjustments for b2 (Algorithms 3 and 4) and then checks if Condition (ii) in Theorem 4.5.1 holds (Algorithm 6).
 
-When run in Ell1 mode, RR3_computations() assumes that S-units in Qz have already been computed for a0 and c1. As such, the program calls initial_setup_ell1.sage, a slightly modified version of initial_setup.sage, and omits the file Qz_extensions.sage. Other than these modifications, Ell1 mode is identical to Full mode.
+When in Ell1 mode, RR3_computations() assumes that S-units in Qz have already been computed for a0 and c1. As such, the program calls initial_setup_ell1.sage, a slightly modified version of initial_setup.sage, and omits the file Qz_extensions.sage. Other than these modifications, Ell1 mode is identical to Full mode.
 
